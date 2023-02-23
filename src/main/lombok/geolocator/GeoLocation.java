@@ -1,6 +1,6 @@
 package geolocator;
 
-@lombok.Data
+@lombok.Data // Generate getter, setter, constructor, etc
 public class GeoLocation {
 
     private String ip;
@@ -14,5 +14,5 @@ public class GeoLocation {
     private double latitude;
     private double longitude;
     private String metroCode;
-    
+
 }
